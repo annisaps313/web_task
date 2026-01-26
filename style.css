@@ -11,3 +11,10 @@ body{
     color: white;
     font-family: 'Courier New', Courier, monospace;
 }
+
+.hero{
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
