@@ -1,65 +1,84 @@
-html{
+html {
     box-sizing: border-box;
 }
 
-*, *::before, *::after{
+*,
+*::before,
+*::after {
     box-sizing: inherit;
 }
 
-body{
+body {
     background-color: indigo;
     color: white;
     font-family: 'Courier New', Courier, monospace;
 }
 
-.hero{
+.hero {
     height: 200px;
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
 
-.projects .row{
+.projects .row {
     margin: 50px;
 }
 
-nav a{
+nav a {
     text-decoration: none;
     color: white;
     font-weight: bold;
 }
 
-.hero, .about{
+.hero,
+.about {
     background-color: #9d03fc;
 }
 
-.card-link, nav ul a{
+.card-link,
+nav ul a {
     color: #ffd369;
     font-weight: bold;
     text-decoration: 2px underline wavy hotpink;
 }
 
-.card{
+.card {
     border-radius: 0;
     color: white;
     background-color: transparent;
     border: 2px solid #9d03fc;
 }
 
-.card img{
+.card img {
     border-radius: 0;
 }
 
-.card-text{
+.card-text {
     color: rgba(255, 255, 255, 0.76);
 }
 
-.hero{
+.hero {
     height: 300px;
 }
 
-nav ul{
+nav ul {
     list-style-type: none;
     display: flex;
     gap: 20px;
+}
+
+nav img{
+    animation: rotate-center 4s linear 0s infinite normal none;
+}
+
+@keyframes rotate-center {
+
+    0% {
+        transform: rotate(0);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
 }
