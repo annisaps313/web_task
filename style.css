@@ -90,3 +90,9 @@ nav img{
 h1{
     font-weight: 900;
 }
+
+.btn, 
+.hero a, 
+.nav li{
+    cursor: pointer;
+}
