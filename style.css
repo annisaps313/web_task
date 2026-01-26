@@ -64,6 +64,12 @@ nav ul {
 
 nav li{
     border-bottom: 5px solid indigo;
+}
+
+.btn, 
+.hero a, 
+.nav li{
+    cursor: pointer;
     transition: background 0.6s ease-in-out;
 }
 
@@ -91,8 +97,7 @@ h1{
     font-weight: 900;
 }
 
-.btn, 
-.hero a, 
-.nav li{
-    cursor: pointer;
+.btn:hover,
+.btn:focus{
+    background-color: rgb(45, 0, 77);
 }
