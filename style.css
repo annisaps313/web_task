@@ -42,7 +42,8 @@ nav a {
 }
 
 .card-link,
-nav ul a {
+nav ul a,
+.hero a {
     color: #ffd369;
     font-weight: bold;
     text-decoration: 2px underline wavy hotpink;
