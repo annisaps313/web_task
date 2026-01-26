@@ -32,3 +32,9 @@ nav a{
 .hero, .about{
     background-color: #9d03fc;
 }
+
+.card-link{
+    color: #ffd369;
+    font-weight: bold;
+    text-decoration: 1px underline wavy hotpink;
+}
