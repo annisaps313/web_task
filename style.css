@@ -36,5 +36,20 @@ nav a{
 .card-link{
     color: #ffd369;
     font-weight: bold;
-    text-decoration: 1px underline wavy hotpink;
+    text-decoration: 2px underline wavy hotpink;
+}
+
+.card{
+    border-radius: 0;
+    color: white;
+    background-color: transparent;
+    border: 2px solid #9d03fc;
+}
+
+.card img{
+    border-radius: 0;
+}
+
+.card-text{
+    color: rgba(255, 255, 255, 0.76);
 }
