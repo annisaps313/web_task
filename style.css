@@ -28,3 +28,7 @@ nav a{
     color: white;
     font-weight: bold;
 }
+
+.hero, .about{
+    background-color: #9d03fc;
+}
