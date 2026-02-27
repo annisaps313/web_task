@@ -101,3 +101,7 @@ h1{
 .btn:focus{
     background-color: rgb(45, 0, 77);
 }
+
+p{
+    letter-spacing: 0.5px;
+}
