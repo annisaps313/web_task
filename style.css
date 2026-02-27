@@ -58,10 +58,6 @@ nav ul {
     gap: 30px;
 }
 
-nav li{
-    border-bottom: 3px solid indigo;
-}
-
 .container{
     max-width: 960px;
 }
