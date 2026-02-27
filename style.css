@@ -66,6 +66,10 @@ nav li{
     border-bottom: 3px solid indigo;
 }
 
+nav .container{
+    max-width: 960px;
+}
+
 .btn, 
 .hero a, 
 .nav li{
